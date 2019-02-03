@@ -1,0 +1,17 @@
+{
+    "dev": {
+        "apigateway_enabled": false,
+        "app_function": "lamnda_function.lambda_handler",
+        "aws_region": "sa-east-1",
+        "keep_warm": false,
+        "lambda_description": "Simple Example",
+        "lambda_handler": "lambda_function.lambda_handler",
+        "memory_size": 128,
+        "profile_name": "default",
+        "project_name": "lambda-aws-zappa-simple-example",
+        "role_name": "ApiLambda",
+        "runtime": "python3.6",
+        "s3_bucket": "zappa-a1sgi38si",
+        "timeout_seconds": 10
+    }
+}
